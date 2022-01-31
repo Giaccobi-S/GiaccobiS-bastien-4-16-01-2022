@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(190, 44, 44);
+    background: rgb(255, 254, 254);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,7 +43,19 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-
+.descriptif{
+    font-size: 21px;
+}
+.commentaire {
+    font-size: 21px;
+}
+.maxime{
+    font-size: 15px;
+   font-weight: bold;
+}
+.titre-créa{
+    font-size: 25px;
+}
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -78,21 +90,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -677,7 +674,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -723,11 +720,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: white!important;
 }
 
 .icons {
@@ -766,17 +763,17 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+/*/.bgc-dark-slate-blue {
     background-color: #364577;
-}
+}/*/
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
-.tc-white {
+/*/.tc-white {
     color: #F3976C!important;
-}
+}/*/
 
 .btn-atomic-tangerine {
     background: #F3976C;
