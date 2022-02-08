@@ -648,7 +648,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -733,7 +733,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #080808!important;
 }
 
 .portfolio-thumb {
@@ -750,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(251, 250, 245, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,7 +786,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #020202!important;
 }
 
 .ltc-white:hover {
@@ -806,9 +806,9 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*/.bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+}/*/
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
