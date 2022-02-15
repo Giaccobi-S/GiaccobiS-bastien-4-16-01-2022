@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+h1{
+    background-color: none;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -814,7 +815,7 @@ h4 {
 }/*/
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
